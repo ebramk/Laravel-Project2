@@ -22,3 +22,6 @@ Route::get('/about', function () {
 Route::get('/contact', function () {
     return view('pages.contact');
 });
+Route::get('/signup', function () {
+    return view('pages.signup');
+});
