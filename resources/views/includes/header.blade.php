@@ -14,7 +14,7 @@
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="/contact">Contact Us</a>
+                        <a class="nav-link" href="/pages/contact">Contact Us</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="/login">Login</a>
