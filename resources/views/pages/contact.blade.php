@@ -3,7 +3,7 @@
     <div class="container py-5">
         <div class="row">
             <div class="col-md-12">
-                <h2 class="text-center mb-5">Get Started</h2>
+                <h2 class="text-center mb-5">Get in touch</h2>
                 <div class="row">
                     <div class="col-md-6 mx-auto">
                         <div class="card border-secondary">
