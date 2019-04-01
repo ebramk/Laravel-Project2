@@ -11,28 +11,20 @@
                                 <h3 class="mb-0 my-2">Sign Up</h3>
                             </div>
                             <div class="card-body">
-                                <form action="/contact" method="post" class="form" role="form" autocomplete="off">
-                                    @csrf
-                                    <div class="form-group">
-                                        <label for="inputName">Name</label>
-                                        <input type="text" class="form-control" id="inputName" placeholder="full name">
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="inputEmail3">Email</label>
-                                        <input type="email" class="form-control" id="inputEmail3" placeholder="email@gmail.com" required="">
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="body">Message</label>
-                                        <textarea name="body" class="form-control" id="body" rows="3" required="">
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="inputVerify3">Verify</label>
-                                        <input type="password" class="form-control" id="inputVerify3" placeholder="password (again)" required="">
-                                    </div>
-                                    <div class="form-group">
-                                        <button type="submit" class="btn btn-success btn-lg float-right">Register</button>
-                                    </div>
-                                </form>
+                               
+                                    <form action="/contact" method="post">
+                                        @csrf
+                                        <div class="form-group">
+                                            <label for="exampleFormControlInput1">Email address</label>
+                                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                                        </div>
+
+
+                                        <div class="form-group">
+                                            <label for="exampleFormControlTextarea1">Example textarea</label>
+                                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                        </div>
+                                    </form>
                             </div>
                         </div>
                     </div>
