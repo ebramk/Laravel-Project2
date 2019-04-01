@@ -26,5 +26,5 @@ Route::get('/login', function () {
     return view('pages.login');
 });
 Route::post('/contact', function () {
-    echo 'I worked!!!!!'; 
+    echo 'I worked!!!!!';
 });
