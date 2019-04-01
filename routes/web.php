@@ -11,20 +11,15 @@
 |
 */
 
-Route::get('/', function () {
-    return view('pages.index');
-});
+Route::get('/','PagesController@home') ->name('home');
 
 
-Route::get('/about', function () {
-    return view('pages.about');
-});
-Route::get('/contact', function () {
-    return view('pages.contact');
-});
-Route::get('/login', function () {
-    return view('pages.login');
-});
+Route::get('/about','PagesController@home') ->name('about');
+
+Route::get('/contact','PagesController@home') ->name('contact');
+
+Route::post('/contact','PagesController@home') ->name('contact.store');
+
 Route::post('/contact', function () {
     echo 'I worked!!!!!';
 });

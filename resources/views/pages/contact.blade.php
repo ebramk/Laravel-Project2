@@ -12,7 +12,7 @@
                             </div>
                             <div class="card-body">
 
-                                    <form action="/contact" method="post">
+                                    <form action="{{route('contact.store')}}" method="post">
                                         @csrf
                                         <div class="form-group">
                                             <label for="exampleFormControlInput1">Email address</label>
