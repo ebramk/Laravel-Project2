@@ -11,14 +11,14 @@
 |
 */
 
-Route::get('/','PagesController@home') ->name('home');
+Route::get('/','PageController@home') ->name('home');
 
 
-Route::get('/about','PagesController@about') ->name('about');
+Route::get('/about','PageController@about') ->name('about');
 
-Route::get('/contact','PagesController@contact') ->name('contact');
+Route::get('/contact','PageController@contact') ->name('contact');
 
-Route::post('/contact','PagesController@home') ->name('contact.store');
+Route::post('/contact','PageController@home') ->name('contact.store');
 
 Route::post('/contact', function () {
     echo 'I worked!!!!!';
