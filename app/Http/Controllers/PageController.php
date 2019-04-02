@@ -15,16 +15,13 @@ class PageController extends Controller
     function about() {
         return view('pages.about');
     }
-
-
-    function store(Request $request) {
+     function store(Request $request) {
 
         $name = $request->name;
 
-        return redirect() ->route('thanks',['name'=>$name]);
-
+      return redirect() ->route('thanks',['name'=>$name]);
     }
-    function  thanks($name, Request $request){
+     function  thanks($name, Request $request){
         return view('pages.thanks') ->with(compact('name'));
     }
 
