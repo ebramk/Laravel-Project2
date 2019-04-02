@@ -15,13 +15,13 @@
                                     <form action="{{route('contact.store')}}" method="post">
                                         @csrf
                                         <div class="form-group">
-                                            <label for="exampleFormControlInput1">Email address</label>
-                                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                                            <label for="exampleFormControlInput1">Full Name:</label>
+                                            <input type="name" name="name" class="form-control" id="name" placeholder="Your Name">
                                         </div>
 
 
                                         <div class="form-group">
-                                            <label for="exampleFormControlTextarea1">Example textarea</label>
+                                            <label for="exampleFormControlTextarea1">Message:</label>
                                             <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                                         </div>
                                         <button type="submit" class="btn btn-primary mb-2">Submit</button>
